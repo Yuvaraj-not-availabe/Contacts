@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="75dp"
+            android:layout_height="88dp"
+            android:padding="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/imageCardView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_launcher_round" />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="336dp"
+            android:layout_height="87dp"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="310dp"
+                android:layout_height="33dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="19dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="310dp"
+                android:layout_height="22dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="54dp">
+
+            </TextView>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

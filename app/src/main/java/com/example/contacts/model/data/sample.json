@@ -1,0 +1,32 @@
+[
+  { "id": 23,
+    "name": "first_item",
+    "phoneNumber": "88888888888",
+    "favourite": false
+  },
+  { "id": 45,
+    "name": "second",
+    "phoneNumber": "999342499999",
+    "favourite": true
+  },
+  { "id": 35,
+    "name": "yuvi",
+    "phoneNumber": "88882558888888",
+    "favourite": true
+  },
+  { "id": 27,
+    "name": "angel",
+    "phoneNumber": "990999998",
+    "favourite": false
+  },
+  { "id": 67,
+    "name": "yoki",
+    "phoneNumber": "99094499998",
+    "favourite": true
+  },
+  { "id": 90,
+    "name": "third",
+    "phoneNumber": "341990932499999",
+    "favourite": false
+  }
+]
