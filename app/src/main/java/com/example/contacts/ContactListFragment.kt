@@ -37,7 +37,6 @@ class ContactListFragment : Fragment() {
             recyclerView.layoutManager = GridLayoutManager(context, 1, RecyclerView.VERTICAL, false)
             fragmentView.findViewById<ImageView>(R.id.all).setOnClickListener {
                 recyclerView.adapter = ItemAdapter(contactList)
-                //it.setBackgroundColor(0xFF1976D2)
             }
             fragmentView.findViewById<ImageView>(R.id.favourite).setOnClickListener {
                 recyclerView.adapter = ItemAdapter(
